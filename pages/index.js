@@ -59,7 +59,7 @@ export default function Home() {
         </Widget>
         <Footer/>
       </QuizContainer>
-      <GitHubCorner projectUrl="https:github.com.br/rodrigorvsn"/>
+      <GitHubCorner projectUrl="https://github.com/RodrigoRVSN"/>
     </QuizBackground>
   );
 }
