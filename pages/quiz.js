@@ -6,6 +6,8 @@ import GitHubCorner from '../src/components/GitHubCorner'
 import QuizBackground from '../src/components/QuizBackground'
 import QuizLogo from '../src/components/QuizLogo'
 
+import Head from 'next/head'
+import Link from 'next/link'
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -18,9 +20,22 @@ export const QuizContainer = styled.div`
   }
 `;
 
+const StartGame = {
+  textDecoration: 'none',
+  color: 'orange',
+};
+
 export default function Quiz() {
   return (
-    <QuizBackground backgroundImage={db.bg}>
+    <QuizBackground backgroundImage={db.bg2}>
+      <Head>
+        <title>Quiz One Piece</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="Quiz One piece" key="title" />
+        <meta property="og:image" content={db.bg2}/>
+        <meta property="og:image:type" content="image/jpg"/>
+      </Head>
       <QuizContainer>
         <QuizLogo/>
         <Widget>
@@ -28,7 +43,10 @@ export default function Quiz() {
               <h1>One Piece</h1>
             </Widget.Header>
           <Widget.Content>
-            <p>Teste os seus conhecimentos sobre o universo de One Piece! :D</p>
+            <p>Aguarde... :D</p>
+            <Link href=".">
+              <a style={StartGame}>ÍNICIO</a>
+            </Link>
           </Widget.Content>
         </Widget>
         

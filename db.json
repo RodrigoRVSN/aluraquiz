@@ -1,10 +1,11 @@
 {
-    "bg": "https://i.pinimg.com/originals/19/de/7d/19de7dadebc065f4534b7cd3921680d2.jpg",
+    "bg": "https://static.zerochan.net/ONE.PIECE.full.691826.jpg",
+    "bg2": "https://images.wallpapersden.com/image/download/monkey-d-luffy-one-piece-art_a2tmam6UmZqaraWkpJRmZ21lrWxnZQ.jpg",
     "title": "Quiz CSS da Alura",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://i.pinimg.com/originals/19/de/7d/19de7dadebc065f4534b7cd3921680d2.jpg",
+        "image": "https://static.zerochan.net/ONE.PIECE.full.691826.jpg",
         "title": "Como fazer um seletor por id via CSS?",
         "description": "Essa é pra aquecer",
         "answer": 2,
@@ -16,7 +17,7 @@
         ]
       },
       {
-        "image": "https://i.pinimg.com/originals/19/de/7d/19de7dadebc065f4534b7cd3921680d2.jpg",
+        "image": "https://static.zerochan.net/ONE.PIECE.full.691826.jpg",
         "title": "Como fazer um background gradiente com css?",
         "description": "Faz tempo em haha",
         "answer": 0,

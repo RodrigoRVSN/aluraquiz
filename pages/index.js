@@ -6,7 +6,8 @@ import GitHubCorner from '../src/components/GitHubCorner'
 import QuizBackground from '../src/components/QuizBackground'
 import QuizLogo from '../src/components/QuizLogo'
 
-import Quiz from "./Quiz";
+import Head from 'next/head'
+import Link from 'next/link'
 
 
 export const QuizContainer = styled.div`
@@ -20,9 +21,22 @@ export const QuizContainer = styled.div`
   }
 `;
 
+const StartGame = {
+  textDecoration: 'none',
+  color: 'orange',
+};
+
 export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title>Quiz One Piece</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="Quiz One Piece" key="title" />
+        <meta property="og:image" content={db.bg}/>
+        <meta property="og:image:type" content="image/jpg"/>
+      </Head>
       <QuizContainer>
         <QuizLogo/>
         <Widget>
@@ -30,13 +44,16 @@ export default function Home() {
               <h1>One Piece</h1>
             </Widget.Header>
           <Widget.Content>
-            <p>Teste os seus conhecimentos sobre o universo de One Piece! :D</p>
+            <p>Embarque nesse quiz para testar seus conhecimentos sobre One Piece! :D</p>
+            <Link href="/Quiz">
+              <a style={StartGame}>JOGAR</a>
+            </Link>
           </Widget.Content>
         </Widget>
         <Widget>
           <Widget.Content>
-              <h1>Quiz de outras pessoas</h1>
-              <p>Dê uma olhada nos quizes que os outros alunos da imersão alura fizeram:</p>
+              <h1>Quiz de outros piratas</h1>
+              <p>Dê uma olhada nos quizes que os outras pessoas da imersão fizeram:</p>
           </Widget.Content>
 
         </Widget>
