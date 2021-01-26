@@ -45,7 +45,7 @@ export default function Home() {
             </Widget.Header>
           <Widget.Content>
             <p>Embarque nesse quiz para testar seus conhecimentos sobre One Piece! :D</p>
-            <Link href="/Quiz">
+            <Link href="/quiz">
               <a style={StartGame}>JOGAR</a>
             </Link>
           </Widget.Content>
