@@ -6,6 +6,9 @@ import GitHubCorner from '../src/components/GitHubCorner'
 import QuizBackground from '../src/components/QuizBackground'
 import QuizLogo from '../src/components/QuizLogo'
 
+import Quiz from "./Quiz";
+
+
 export const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
