@@ -21,20 +21,19 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
+        <QuizLogo/>
         <Widget>
             <Widget.Header>
-              <h1>CSS</h1>
+              <h1>One Piece</h1>
             </Widget.Header>
           <Widget.Content>
-            <p>opa</p>
+            <p>Teste os seus conhecimentos sobre o universo de One Piece! :D</p>
           </Widget.Content>
         </Widget>
         <Widget>
-            <Widget.Header>
-              <h1>Quiz de outras pessoas</h1>
-            </Widget.Header>
           <Widget.Content>
-            <p>opa2</p>
+              <h1>Quiz de outras pessoas</h1>
+              <p>Dê uma olhada nos quizes que os outros alunos da imersão alura fizeram:</p>
           </Widget.Content>
 
         </Widget>
