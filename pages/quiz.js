@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import styled from 'styled-components';
 import React from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -8,6 +9,20 @@ import QuizBackground from '../src/components/QuizBackground';
 import { QuizContainer } from '../src/components/QuizContainer';
 import QuestionWidget from '../src/components/QuestionWidget';
 import LoadingWidget from '../src/components/LoadingWidget';
+
+const ReturnButton = styled.button`
+  background-color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.contrastText};
+  border: 2px solid black;
+  height: 45px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  &:hover{
+    opacity: 0.5;
+  }
+
+`;
 
 function ResultWidget({ results }) {
   const user = useRouter();
@@ -25,7 +40,13 @@ function ResultWidget({ results }) {
           {results.filter((x) => x).length}
           {' '}
           de
-          {`${db.questions.length} ${name}!`}
+          {` ${db.questions.length} ${name}! `}
+        </p>
+        <p>
+          Você fez
+          {' '}
+          {results.filter((x) => x).length}
+          00 pontos
         </p>
         <ul>
           {results.map((result, index) => (
@@ -37,6 +58,9 @@ function ResultWidget({ results }) {
             </li>
           ))}
         </ul>
+        <ReturnButton type="button" onClick={() => user.push('/')}>
+          VOLTAR AO INÍCIO
+        </ReturnButton>
       </Widget.Content>
     </Widget>
   );

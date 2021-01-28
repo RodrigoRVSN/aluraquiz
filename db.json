@@ -1,29 +1,29 @@
 {
     "bg": "https://static.zerochan.net/ONE.PIECE.full.691826.jpg",
-    "bg2": "https://images.wallpapersden.com/image/download/monkey-d-luffy-one-piece-art_a2tmam6UmZqaraWkpJRmZ21lrWxnZQ.jpg",
+    "bg2": "https://images.hdqwalls.com/download/one-piece-4k-2g-1366x768.jpg",
     "rs": "https://images3.alphacoders.com/739/thumb-350-739912.jpg",
     "ld": "https://i.pinimg.com/originals/a4/c9/8f/a4c98f82ed7c8f49223d0c06b549babe.gif",
     "title": "Quiz de One Piece",
     "description": "Teste seus conhecimentos acerca de One Piece",
     "questions": [
       {
-        "image": "https://media2.giphy.com/media/z8499G57Bne3m/giphy.gif",
-        "title": "Quem matou o Ace na base da marinha?",
-        "description": "Essa é pra aquecer, literalmente",
-        "answer": 2,
+        "image": "https://pa1.narvii.com/6604/8e0aa71f3a7f1704a184947d666849921e36a447_hq.gif",
+        "title": "Quem da tripulação dos Chapéus de Palha já morreu na obra?",
+        "description": "F, apenas.",
+        "answer": 4,
         "alternatives": [
-          "Barba Negra",
-          "Buggy",
-          "Akainu",
-          "Kizaru",
-          "Garp"
+          "Kinemon",
+          "Ace",
+          "Chopper",
+          "Vivi",
+          "Brook"
         ]
       },
       {
         "image": "https://i.pinimg.com/originals/56/4d/7c/564d7cc3dfbfee2de9c738efc0cbdafe.gif",
         "title": "Quem foi o terceiro membro a se juntar a tripulação dos Chapéus de Palha? Desconsidere o capitão.",
         "description": "Traição não conta... Ou conta?",
-        "answer": 3,
+        "answer": 1,
         "alternatives": [
           "Zoro",
           "Usopp",
@@ -46,20 +46,20 @@
         ]
       },
       {
-        "image": "https://i.pinimg.com/originals/84/c4/b8/84c4b80206a2e595f3ad977f63dc00d0.gif",
-        "title": "Após a separação dos Chapéus de Palha, quem treinou o Zoro?",
-        "description": "Uma vez Zoro foi pescar um peixe e o jogou pra cima, hoje em dia esse peixe é chamado de Sol.",
-        "answer": 1,
+        "image": "https://giffiles.alphacoders.com/210/210415.gif",
+        "title": "Onde Doflamingo nasceu?",
+        "description": "Será que o jeito de andar é um costume cultural?",
+        "answer": 3,
         "alternatives": [
-          "Shanks",
-          "Mihawk",
-          "Kuina",
-          "Rayleigh",
-          "Fujitora"
+          "Dressora",
+          "Alabasta",
+          "Raftel",
+          "Mariejois",
+          "Loguetown"
         ]
       },
       {
-        "image": "https://pa1.narvii.com/6435/05421ee2e8bc4e26ddbec0b633db701e878da8db_00.gif",
+        "image": "https://thumbs.gfycat.com/DecentDecimalKookaburra-size_restricted.gif",
         "title": "Quem matou Barba Branca?",
         "description": "'O one piece EXISTE'",
         "answer": 3,
@@ -74,21 +74,21 @@
       {
         "image": "https://media1.giphy.com/media/Z1wtTnS4UFJ2o/source.gif",
         "title": "Quem teve o prazer de virar o 'boneco' da Big Mom?",
-        "description": "Esse dia foi louco. Literalmente",
+        "description": "Esse dia foi louco, como diria os Germas.",
         "answer": 0,
         "alternatives": [
           "Brook",
           "Chopper",
           "Rabbit",
           "Chopper",
-          "Akainu"
+          "Katakuri"
         ]
       },
       {
         "image": "https://media1.tenor.com/images/9714f0b1464f28acb61b22884b7054fb/tenor.gif?itemid=13967703",
         "title": "Com quem Mihawk realizava seus duelos?",
-        "description": "Essas brigas de espadas não acabavam bem.",
-        "answer": 4,
+        "description": "Uma vez Mihawk pescou um peixe e o jogou para cima, hoje em dia esse peixe é chamado de Sol.",
+        "answer": 2,
         "alternatives": [
           "Mihawk",
           "Zoro",
@@ -126,7 +126,7 @@
       {
         "image": "https://media1.tenor.com/images/140c346a04ce150db26cae1c9c903425/tenor.gif?itemid=7228909",
         "title": "Por que Kaido tenta se suicidar inúmeras vezes?",
-        "description": "Então esse é o cara mais forte do mundo? Isso por que não lutou contra o Usopp.",
+        "description": "Então esse é o cara mais forte do mundo? Isso por que não lutou contra o Deus Usopp.",
         "answer": 0,
         "alternatives": [
           "Por que ninguém é páreo para ele e ele quer sentir adrenalina",

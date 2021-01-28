@@ -52,8 +52,8 @@ function QuestionWidget({
             evento.preventDefault();
             setIsQuestionSubmited(true);
             setTimeout(() => {
-              addResult(isCorrect);
               onSubmit();
+              addResult(isCorrect);
               setIsQuestionSubmited(false);
               setSelectedAlternative(undefined);
             }, 2 * 1000);
