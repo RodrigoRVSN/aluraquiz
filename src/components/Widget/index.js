@@ -46,4 +46,26 @@ ul {
 }
 `;
 
+Widget.Topic = styled.a`
+  outline: 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.contrastText};
+  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: 40px;
+  transition: .3s;
+  display: block;
+  
+  &:hover,
+  &:focus {
+    opacity: .5;
+  }
+  &:disabled {
+    background-color: #000000;
+    border: 3px solid #000000;
+  }
+`;
+
 export default Widget;

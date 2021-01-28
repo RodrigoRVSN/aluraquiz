@@ -1,31 +1,141 @@
 {
     "bg": "https://static.zerochan.net/ONE.PIECE.full.691826.jpg",
     "bg2": "https://images.wallpapersden.com/image/download/monkey-d-luffy-one-piece-art_a2tmam6UmZqaraWkpJRmZ21lrWxnZQ.jpg",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "ld": "https://i.pinimg.com/originals/a4/c9/8f/a4c98f82ed7c8f49223d0c06b549babe.gif",
+    "title": "Quiz de One Piece",
+    "description": "Teste seus conhecimentos acerca de One Piece",
     "questions": [
       {
-        "image": "https://static.zerochan.net/ONE.PIECE.full.691826.jpg",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "image": "https://media2.giphy.com/media/z8499G57Bne3m/giphy.gif",
+        "title": "Quem matou o Ace na base da marinha?",
+        "description": "Essa é pra aquecer, literalmente",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Barba Negra",
+          "Buggy",
+          "Akainu",
+          "Kizaru",
+          "Garp"
         ]
       },
       {
-        "image": "https://static.zerochan.net/ONE.PIECE.full.691826.jpg",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://i.pinimg.com/originals/56/4d/7c/564d7cc3dfbfee2de9c738efc0cbdafe.gif",
+        "title": "Quem foi o terceiro membro a se juntar a tripulação dos Chapéus de Palha? Desconsidere o capitão.",
+        "description": "Traição não conta... Ou conta?",
+        "answer": 3,
+        "alternatives": [
+          "Zoro",
+          "Usopp",
+          "Sanji",
+          "Nami",
+          "Luffy"
+        ]
+      },
+      {
+        "image": "https://pa1.narvii.com/6392/27d6a6a57b3c80cbe1bfe69200e2a5065a638569_hq.gif",
+        "title": "Quem causou a cicatriz nos olhos de Shanks, o Ruivo?",
+        "description": "Uma dica: Não foi ele mesmo.",
+        "answer": 4,
+        "alternatives": [
+          "Mihawk",
+          "Barba Branca",
+          "Um rei do mar",
+          "Garp",
+          "Barba Negra"
+        ]
+      },
+      {
+        "image": "https://i.pinimg.com/originals/84/c4/b8/84c4b80206a2e595f3ad977f63dc00d0.gif",
+        "title": "Após a separação dos Chapéus de Palha, quem treinou o Zoro?",
+        "description": "Uma vez Zoro foi pescar um peixe e o jogou pra cima, hoje em dia esse peixe é chamado de Sol.",
+        "answer": 1,
+        "alternatives": [
+          "Shanks",
+          "Mihawk",
+          "Kuina",
+          "Rayleigh",
+          "Fujitora"
+        ]
+      },
+      {
+        "image": "https://pa1.narvii.com/6435/05421ee2e8bc4e26ddbec0b633db701e878da8db_00.gif",
+        "title": "Quem matou Barba Branca?",
+        "description": "'O one piece EXISTE'",
+        "answer": 3,
+        "alternatives": [
+          "Akainu",
+          "A Marinha",
+          "Buggy",
+          "Tripulação do Barba Negra",
+          "Kaido das 100 feras"
+        ]
+      },
+      {
+        "image": "https://media1.giphy.com/media/Z1wtTnS4UFJ2o/source.gif",
+        "title": "Quem teve o prazer de virar o 'boneco' da Big Mom?",
+        "description": "Esse dia foi louco. Literalmente",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+          "Brook",
+          "Chopper",
+          "Rabbit",
+          "Chopper",
+          "Akainu"
+        ]
+      },
+      {
+        "image": "https://media1.tenor.com/images/9714f0b1464f28acb61b22884b7054fb/tenor.gif?itemid=13967703",
+        "title": "Com quem Mihawk realizava seus duelos?",
+        "description": "Essas brigas de espadas não acabavam bem.",
+        "answer": 4,
+        "alternatives": [
+          "Mihawk",
+          "Zoro",
+          "Shanks",
+          "Fujitora",
+          "Marco Fênix"
+        ]
+      },
+      {
+        "image": "https://media0.giphy.com/media/LQdfUem07PSQU/giphy.gif",
+        "title": "Como é chamada a tribo da Boa Hancock?",
+        "description": "A futura esposa do futuro rei dos piratas não é nada mal.",
+        "answer": 0,
+        "alternatives": [
+          "Kuja",
+          "Mugiwaras",
+          "Serpentes de rapina",
+          "Fona",
+          "Mink"
+        ]
+      },
+      {
+        "image": "https://31.media.tumblr.com/tumblr_md31rgG1rS1rcdmmbo1_500.gif",
+        "title": "Por que Buggy entrou na guerra de Marineford, junto com Luffy e demais?",
+        "description": "Talvez eu estivesse precipitado e este seja o verdadeiro futuro rei dos piratas.",
+        "answer": 1,
+        "alternatives": [
+          "Para salvar o Ace.",
+          "Para ganhar fama.",
+          "Para se vingar da Marinha.",
+          "Para matar o Aokiji.",
+          "Porque era amigo de longa data do Barba Branca."
+        ]
+      },
+      {
+        "image": "https://media1.tenor.com/images/140c346a04ce150db26cae1c9c903425/tenor.gif?itemid=7228909",
+        "title": "Por que Kaido tenta se suicidar inúmeras vezes?",
+        "description": "Então esse é o cara mais forte do mundo? Isso por que não lutou contra o Usopp.",
+        "answer": 0,
+        "alternatives": [
+          "Por que ninguém é páreo para ele e ele quer sentir adrenalina",
+          "Por que ele se arrepende de ter matado Oden",
+          "Por que ele quer se tornar o rei dos piratas, no céu",
+          "Por que ele se sente triste",
+          "Por que ele bebe muito"
         ]
       }
+
     ],
     "external": [
       ""
