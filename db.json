@@ -139,7 +139,10 @@
 
     ],
     "external": [
-      ""
+      "https://aluraquiz-wow.yuriramosc.vercel.app/",
+      "https://aluraquiz.brunomspais.vercel.app/",
+      "https://strangerquiz.felipeoes.vercel.app/",
+      "https://miziaraquiz-2bg7mi3xs.vercel.app/"
     ],
     "theme": {
       "colors": {

@@ -6,6 +6,7 @@ import React from 'react';
 import { Widget } from '../Widget';
 import { Button } from '../Button';
 import AlternativesForm from '../AlternativesForm';
+import BackLinkArrow from '../BackLinkArrow';
 
 function QuestionWidget({
   question,
@@ -23,6 +24,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         <h3>
           Pergunta
           {` ${questionIndex + 1} `}

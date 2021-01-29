@@ -3,12 +3,12 @@ import styled from 'styled-components';
 import React from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import db from '../db.json';
-import { Widget } from '../src/components/Widget';
-import QuizBackground from '../src/components/QuizBackground';
-import { QuizContainer } from '../src/components/QuizContainer';
-import QuestionWidget from '../src/components/QuestionWidget';
-import LoadingWidget from '../src/components/LoadingWidget';
+import db from '../../db.json';
+import { Widget } from '../../src/components/Widget';
+import QuizBackground from '../../src/components/QuizBackground';
+import { QuizContainer } from '../../src/components/QuizContainer';
+import QuestionWidget from '../../src/components/QuestionWidget';
+import LoadingWidget from '../../src/components/LoadingWidget';
 
 const ReturnButton = styled.button`
   background-color: ${({ theme }) => theme.colors.primary};
