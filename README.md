@@ -1,4 +1,4 @@
-#Quiz de One Piece
+# Quiz de One Piece
 
 ## Na imersão de react da Alura, foi proposto a elaboração de um quiz da comunidade, em que o tema era de livre escolha por cada usuário. No meu caso, escolhi One Piece para ser o tema do meu quiz. Nota-se que além de usar animações, foi utilizado nextjs para fazer uma conexão com o site das outras pessoas.
 
